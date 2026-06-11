@@ -13,7 +13,7 @@ Profil mahasiswa: lulusan Sistem Informasi, mantan software engineer (NestJS/Nod
 
 ## Silabus
 
-### Minggu 0: Prasyarat dan setup
+### Minggu 0: Prasyarat dan setup (sudah dikuasai)
 - Instal Git, buat akun GitHub
 - Instal Claude Code dan autentikasi
 - Dasar terminal dan git: init, add, commit, push
@@ -62,4 +62,5 @@ Profil mahasiswa: lulusan Sistem Informasi, mantan software engineer (NestJS/Nod
 ## Status saat ini
 
 Minggu aktif: 0 (setup)
-Catatan progres: (perbarui baris ini setiap selesai satu minggu)
+Catatan progres: 
+- Minggu 0 selesai: alur git sudah di kuasai
