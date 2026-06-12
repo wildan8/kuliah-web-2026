@@ -76,7 +76,8 @@ Goal akhir semester: sistem absensi lengkap dengan face recognition, plus fondas
 
 ## Status saat ini
 
-Minggu aktif: 1
+Minggu aktif: 2
 Catatan progres:
 - Minggu 0 selesai: alur git sudah dikuasai
+- Minggu 1 Selesai, interface, union, narrowing
 
