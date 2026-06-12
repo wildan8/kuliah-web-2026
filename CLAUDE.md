@@ -31,4 +31,12 @@ Cek "Status saat ini" di KURIKULUM.md untuk tahu minggu aktif, lalu ikuti aturan
 - Gaya jawaban: ringkas, langsung, actionable.
 - Setiap akhir sesi, ingatkan saya untuk commit dan push pekerjaan hari ini.
 - Kalau saya menyelesaikan tugas satu minggu, ingatkan saya memperbarui baris "Status saat ini" di KURIKULUM.md.
-- Konteks proyek inti: sistem inventory/POS untuk Akar Coffee, coffee shop dengan 6 karyawan. Fitur tumbuh bertahap mengikuti silabus.
+
+## Konteks proyek inti
+
+Sistem Manajerial Internal Perusahaan. Modul pertama: SISTEM ABSENSI dengan login per karyawan, role (admin/manager/staff), alur approval izin/cuti, absensi foto, dan verifikasi wajah (face recognition) di fase akhir.
+
+- Mid goal (minggu 18): absensi v1 live: login, role, approval, foto check-in.
+- Face recognition baru masuk minggu 19-20, sebagai fitur pendukung, bukan pengganti foto.
+- Ingatkan saya soal keamanan data biometrik kalau relevan (akses foto dibatasi, persetujuan karyawan).
+- Fitur tumbuh bertahap mengikuti silabus. Jangan lompat membangun fitur dari minggu yang belum tiba.
