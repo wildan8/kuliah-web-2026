@@ -12,5 +12,5 @@ function keliling (sisi:number) :number {
 }
 
 //  1. error ini terjadi karena parameter yang di harapkan function adalah sebuah number, namun input yang ada malah menggunakan string
-//  2. dalam js mengembalikan NaN, daji coder tidak bisa mengetahui langsung kesalahannya di titik mana
+//  2. dalam js mengembalikan NaN, jadi coder tidak bisa mengetahui langsung kesalahannya di titik mana
 console.log(keliling("lima"))
