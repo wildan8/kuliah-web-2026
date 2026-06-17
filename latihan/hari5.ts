@@ -15,7 +15,7 @@ function patch(data: Partial<Karyawan>) {
 type RecordKaryawan = Record<"pagi" | "siang" | "malam", number>
 type KaryawanEditable = Partial<Karyawan>;
 
-type Peran = "admin" | "manager" | "staff";
+// type Peran = "admin" | "manager" | "staff";
 type PeranNonAdmin = Exclude<Peran, "admin">;
 
 function CariKaryawan(id: number): Karyawan| null {
