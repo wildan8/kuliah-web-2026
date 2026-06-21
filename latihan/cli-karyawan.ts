@@ -1,3 +1,12 @@
+import { readFile } from "node:fs/promises";
+
+async function main(){
+    const csvKaryawan = await readFile("latihan/data/karyawan.csv", "utf-8");
+    console.log("parse karyawan",parseKaryawan(csvKaryawan));
+    console.log("ringkasan karyawan",ringkasanPerPeran(parseKaryawan(csvKaryawan).valid));
+
+}
+
 type Peran = "admin" | "manager" | "staff";
 interface Karyawan {
   id: number;
@@ -6,12 +15,6 @@ interface Karyawan {
   aktif: boolean;
 }
 
-const csvKaryawan = `id,nama,peran,aktif
-1a,Adi,admin,true
-2,ANDRE,staff,true
-3,vincent,admin, true
-4,Budi,manager,false
-5,Citra,staff,true`;
 
 function isKaryawan(value:string): value is Peran {
     return value === "admin" || value === "manager" || value === "staff";
@@ -76,7 +79,7 @@ function parseKaryawan(teks: string): ParseResult {
     return hasil;
 }
 
-console.log("parse karyawan",parseKaryawan(csvKaryawan));
+
 
 function ringkasanPerPeran(data: Karyawan[]): Record<Peran, number> {
     const hitung: Record<Peran, number> = {
@@ -89,4 +92,5 @@ function ringkasanPerPeran(data: Karyawan[]): Record<Peran, number> {
     });
     return hitung;
 }
-console.log("ringkasan karyawan",ringkasanPerPeran(parseKaryawan(csvKaryawan).valid));
+
+main()
